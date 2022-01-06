@@ -1,0 +1,41 @@
+/** @format */
+
+.board {
+  text-align: center;
+}
+
+.board_row {
+  display: flex;
+  justify-content: center;
+}
+
+/* .btn-box {
+  height: 120px;
+  width: 120px;
+  font-size: 50px;
+} */
+
+.header {
+  text-align: center;
+  font-size: 50px;
+  text-shadow: 2px 2px 4px #bbb;
+}
+.square {
+  border-width: 1px;
+  border-color: black;
+  border-style: dotted;
+}
+.img_square {
+  width: 100px;
+}
+.hide {
+  display: none;
+}
+.tic_tac_toe {
+  height: 100%;
+  padding: 5%;
+  text-align: center;
+}
+.board_section {
+  justify-content: center;
+}

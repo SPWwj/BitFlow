@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.31911.260
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BitFlow", "BitFlow\BitFlow.csproj", "{4E421E3F-7CB9-4761-9E05-B8E7D1FDF353}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Scheduler.Shared", "Shared\Scheduler.Shared.csproj", "{7B17BEFC-0B5F-40C9-A679-12832FC1D926}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4E421E3F-7CB9-4761-9E05-B8E7D1FDF353}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E421E3F-7CB9-4761-9E05-B8E7D1FDF353}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E421E3F-7CB9-4761-9E05-B8E7D1FDF353}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E421E3F-7CB9-4761-9E05-B8E7D1FDF353}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7B17BEFC-0B5F-40C9-A679-12832FC1D926}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B17BEFC-0B5F-40C9-A679-12832FC1D926}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7B17BEFC-0B5F-40C9-A679-12832FC1D926}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7B17BEFC-0B5F-40C9-A679-12832FC1D926}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {49BEB296-3764-4D12-A2F0-F94EE8FFC40D}
+	EndGlobalSection
+EndGlobal
