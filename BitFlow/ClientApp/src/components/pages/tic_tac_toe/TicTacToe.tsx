@@ -6,6 +6,7 @@ import Board from "./Board";
 import styles from "./TicTacToe.module.css";
 import wrongMark from "../../../images/wrongMark.png";
 import circle from "../../../images/circle.png";
+
 function TicTacToe() {
   const [result, setResult] = useState("");
   const [showResultModal, setShowResultModal] = useState(false);
@@ -38,6 +39,7 @@ function TicTacToe() {
     setScore([0, 0]);
     setShowNameModal(false);
   }
+
   return (
     <div className={styles.tic_tac_toe}>
       <h1 className={styles.header}>TIC TAC TOE</h1>

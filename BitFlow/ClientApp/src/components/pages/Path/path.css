@@ -1,0 +1,30 @@
+/** @format */
+
+.left_panel {
+  width: 100%;
+  height: 100%;
+  padding: 10%;
+}
+.path {
+  display: grid;
+  grid-template-columns: 2fr 8fr;
+  grid-template-rows: auto;
+  min-height: calc(100% - 46px);
+}
+h1 {
+  text-align: center;
+}
+table,
+th,
+td {
+  border: 1px solid black;
+  text-align: center;
+  padding: 10px;
+}
+.highlight {
+  background-color: yellow;
+}
+.path_content {
+  padding-left: 10%;
+  padding-right: 10%;
+}

@@ -1,4 +1,5 @@
 {
   "editor.linkedEditing": true,
-  "editor.defaultFormatter": "esbenp.prettier-vscode"
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "vscode-edge-devtools.mirrorEdits": true
 }
